@@ -3,8 +3,8 @@ import navImg from "./img/pexels-david-buchi-1070345.jpg";
 export const StyledNav = styled.div`
 	color: white;
 	position: fixed;
-	bottom: 50px;
-	right: 50px;
+	bottom: 25px;
+	right: 25px;
 	z-index: 9;
 	.openedNav {
 		display: flex;

@@ -1,5 +1,12 @@
 .App {
 	text-align: center;
-	/* background-color: black; */
-	height: 100vh;
+	background-color: rgba(51, 51, 51);
+	box-shadow: 0px 0px 200px inset black;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }

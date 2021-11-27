@@ -13,4 +13,8 @@ code {
 html {
 	font-size: 62.5%;
 	color: white;
+
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
