@@ -6,6 +6,7 @@ export const StyledVideoPlayer = styled.div`
 	justify-content: center;
 	align-items: center;
 	aspect-ratio: 16/9;
+	width: 100%;
 
 	h3 {
 		margin: 10px auto 10px auto;
