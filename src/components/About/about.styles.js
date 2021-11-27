@@ -7,7 +7,6 @@ export const StyledAbout = styled.div`
 	align-items: center;
 	padding-top: 15px;
 	.section {
-		/* font-size: 2rem; */
 		background-color: rgba(255, 255, 255, 0.18);
 		width: 70%;
 		justify-content: center;
