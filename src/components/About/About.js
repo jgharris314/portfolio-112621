@@ -5,22 +5,24 @@ const About = () => {
 	return (
 		<StyledAbout className="body-section">
 			<div className="section">
-				Greetings! <br />
-				I'm Jacob Harris, a web developer located in Denver, Colorado.
+				<h4>Greetings!</h4>
+				I'm Jacob, a web developer located in Denver, Colorado. When I'm
+				not making web applications, I enjoy getting outdoors,
+				socializing with friends, and gaining new knowledge.
 			</div>
-			<ul className="section">
+			<div className="section">
 				<h4>Skills</h4>
 				<li className="section-item">React</li>
 				<li className="section-item">Express</li>
 				<li className="section-item">Node</li>
 				<li className="section-item">PostgreSQL</li>
-			</ul>
-			<ul className="section">
+			</div>
+			<div className="section">
 				<h4>Hobbies</h4>
 				<li className="section-item">Kendama</li>
-				<li className="section-item">Learning</li>
+				<li className="section-item">Playing video games</li>
 				<li className="section-item">Hiking</li>
-			</ul>
+			</div>
 		</StyledAbout>
 	);
 };
