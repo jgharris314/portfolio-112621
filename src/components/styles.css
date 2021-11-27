@@ -16,6 +16,10 @@
 	overflow: hidden;
 }
 
+.body-section::-webkit-scrollbar {
+	display: none;
+}
+
 @media screen and (min-width: 720px) {
 	.body-section {
 		width: 70%;
