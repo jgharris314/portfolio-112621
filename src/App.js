@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -12,6 +12,8 @@ function App() {
 			<Header />
 			<Nav />
 			<Routes>
+				<Route exact path="/" element={<Navigate to="/home" />} />
+
 				<Route path="/home" exact element={<Home />} />
 
 				<Route path="about" exact element={<About />} />
