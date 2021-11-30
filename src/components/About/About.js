@@ -5,7 +5,6 @@ const About = () => {
 	return (
 		<StyledAbout className="body-section">
 			<div className="section">
-				<h4>Greetings!</h4>
 				I'm Jacob, a web developer located in Denver, Colorado. When I'm
 				not making web applications, I enjoy getting outdoors,
 				socializing with friends, and gaining new knowledge.
