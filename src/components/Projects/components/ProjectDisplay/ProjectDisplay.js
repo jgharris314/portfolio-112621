@@ -10,12 +10,11 @@ const ProjectDisplay = ({ activeObject, currentImage, setCurrentImage }) => {
 
 	useEffect(() => {
 		setActiveImage(activeObject.images[currentImage]);
-	}, [rerender, activeImage, activeObject]);
+	}, [rerender, activeImage, activeObject, currentImage]);
 
 	const handleNextImage = () => {
 		if (currentImage === activeObject.images.length - 1) {
 			setCurrentImage(0);
-			// setActiveImage(activeObject.images[currentImage]);
 		} else {
 			setCurrentImage(currentImage + 1);
 		}
@@ -31,6 +30,7 @@ const ProjectDisplay = ({ activeObject, currentImage, setCurrentImage }) => {
 
 			<div className="section">{activeObject.description}</div>
 			<div className="section">
+				<h3>Made With</h3>
 				{activeObject.stack.map((item, index) => {
 					return <div key={index}> {item}</div>;
 				})}

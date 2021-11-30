@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const StyledAbout = styled.div`
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
-	padding-top: 50px;
+
 	.section {
 		background-color: rgba(255, 255, 255, 0.05);
 		width: 90%;

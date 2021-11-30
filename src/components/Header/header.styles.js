@@ -8,7 +8,7 @@ export const StyledHeader = styled.div`
 		url(${headerImg});
 	background-size: cover;
 	color: white;
-	height: 150px;
+	height: 180px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

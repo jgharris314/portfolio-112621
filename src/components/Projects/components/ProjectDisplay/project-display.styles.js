@@ -11,22 +11,29 @@ export const StyledProjectDisplay = styled.div`
 	padding: 0px 0px 15px 0px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
-	font-size: 2.4rem;
+	font-size: 2rem;
 	margin: 10px 0px;
 	padding: 0.5%;
 
+	h3 {
+		font-size: 3rem;
+		margin: 0px;
+		color: orange;
+	}
 	.section {
 		width: 90%;
 		justify-content: center;
-		margin-bottom: 5px;
+		margin: 10px auto;
 		padding: 0.25%;
 		border-radius: 5px;
 		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
 	}
 
 	.title {
-		font-size: 3rem;
+		font-size: 4.2rem;
 		margin-top: 5px;
+		color: orange;
+		font-weight: bold;
 	}
 
 	.access-section {
