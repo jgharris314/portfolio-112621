@@ -6,19 +6,37 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import React, { useState } from "react";
 function App() {
+	const [headerMemo, setHeaderMemo] = useState("Web Developer");
 	return (
 		<div className="App">
-			<Header />
+			<Header headerMemo={headerMemo} />
 			<Nav />
 			<Routes>
 				<Route exact path="/" element={<Navigate to="/home" />} />
 
-				<Route path="/home" exact element={<Home />} />
+				<Route
+					path="/home"
+					exact
+					element={<Home setHeaderMemo={setHeaderMemo} />}
+				/>
 
-				<Route path="about" exact element={<About />} />
-				<Route path="projects" exact element={<Projects />} />
-				<Route path="contact" exact element={<Contact />} />
+				<Route
+					path="about"
+					exact
+					element={<About setHeaderMemo={setHeaderMemo} />}
+				/>
+				<Route
+					path="projects"
+					exact
+					element={<Projects setHeaderMemo={setHeaderMemo} />}
+				/>
+				<Route
+					path="contact"
+					exact
+					element={<Contact setHeaderMemo={setHeaderMemo} />}
+				/>
 			</Routes>
 		</div>
 	);

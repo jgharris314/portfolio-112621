@@ -1,7 +1,8 @@
 import React from "react";
 import { StyledAbout } from "./about.styles";
 import "../styles.css";
-const About = () => {
+const About = ({ setHeaderMemo }) => {
+	setHeaderMemo("About");
 	return (
 		<StyledAbout className="body-section">
 			<div className="section">
