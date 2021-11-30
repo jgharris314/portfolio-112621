@@ -7,13 +7,13 @@ const IconDisplay = () => {
 	return (
 		<StyledIconDisplay>
 			<img
-				className="img-btn"
+				className="img-btn github"
 				src={github}
 				alt="GitHub logo"
 				onClick={() => window.open("https://github.com/jgharris314")}
 			/>
 			<img
-				className="img-btn"
+				className="img-btn linkedin"
 				src={linkedIn}
 				alt="LinkedIn logo"
 				onClick={() =>

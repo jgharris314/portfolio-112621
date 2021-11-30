@@ -51,7 +51,7 @@ export const StyledProjectDisplay = styled.div`
 		padding: 0.25%;
 		justify-content: center;
 		align-items: center;
-		border-radius: 5px;
+		border-radius: 10px;
 		margin-left: 15px;
 
 		:hover {
@@ -59,7 +59,7 @@ export const StyledProjectDisplay = styled.div`
 		}
 	}
 	.github-img {
-		border-radius: 15px;
+		border-radius: 10px;
 		background-color: rgba(255, 255, 255, 0.5);
 
 		:hover {

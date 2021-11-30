@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { StyledProjectDisplay } from "./project-display.styles";
 import ImageDisplay from "./components/ImageDisplay/ImageDisplay";
-import github from "../../img/icons8-github-80.png";
+import github from "../../img/github.png";
 const ProjectDisplay = ({ activeObject, currentImage, setCurrentImage }) => {
 	const [activeImage, setActiveImage] = useState(
 		activeObject.images[currentImage]

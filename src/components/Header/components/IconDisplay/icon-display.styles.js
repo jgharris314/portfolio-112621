@@ -14,7 +14,19 @@ export const StyledIconDisplay = styled.div`
 	width: 20%;
 
 	.img-btn {
-		background-color: rgba(255, 255, 255, 0.3);
-		border-radius: 5px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 10px;
+	}
+
+	.linkedin {
+		:hover {
+			background-color: #4875b4;
+		}
+	}
+
+	.github {
+		:hover {
+			background-color: orange;
+		}
 	}
 `;
