@@ -5,7 +5,7 @@ import portClip from "./vids/portfolio-kendama-clip.mp4";
 const VideoPlayer = () => {
 	return (
 		<StyledVideoPlayer>
-			<h3>Hello! Welcome to my site!</h3>
+			<h3>Greetings Traveller!</h3>
 			<ReactPlayer
 				className="video"
 				url={portClip}
