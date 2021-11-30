@@ -28,6 +28,7 @@ const Nav = () => {
 								}
 								key={index}
 								to={`/${e.toLowerCase()}`}
+								onClick={() => setIsOpened(!isOpened)}
 							>
 								{e}
 							</Link>
