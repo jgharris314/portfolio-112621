@@ -32,9 +32,9 @@ export const StyledProjectDisplay = styled.div`
 	.access-section {
 		display: flex;
 		flex-direction: row;
-		width: 10%;
+		width: 50%;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.demo-btn {
@@ -45,6 +45,7 @@ export const StyledProjectDisplay = styled.div`
 		justify-content: center;
 		align-items: center;
 		border-radius: 5px;
+		margin-left: 15px;
 
 		:hover {
 			background-color: limegreen;
@@ -53,6 +54,7 @@ export const StyledProjectDisplay = styled.div`
 	.github-img {
 		border-radius: 15px;
 		background-color: rgba(255, 255, 255, 0.5);
+
 		:hover {
 			background-color: orange;
 		}
