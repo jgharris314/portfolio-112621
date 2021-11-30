@@ -21,7 +21,7 @@ export const StyledNav = styled.div`
 
 		border: 0.5px solid rgba(255, 255, 255, 0.33);
 		border-radius: 5px;
-		box-shadow: 0px 0px 10px white;
+		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.18);
 
 		.close-btn {
 			text-align: right;
@@ -46,7 +46,7 @@ export const StyledNav = styled.div`
 	}
 	.closedNav {
 		background-color: limegreen;
-		box-shadow: 0px 0px 10px white;
+		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.18);
 		border-radius: 5px;
 	}
 

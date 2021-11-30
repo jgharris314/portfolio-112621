@@ -2,8 +2,8 @@ import styled from "styled-components";
 import headerImg from "./img/pexels-david-buchi-1070345.jpg";
 export const StyledHeader = styled.div`
 	background-image: linear-gradient(
-			rgba(29, 5, 37, 0.97),
-			rgba(29, 5, 37, 0.97)
+			rgba(29, 5, 37, 0.92),
+			rgba(29, 5, 37, 0.92)
 		),
 		url(${headerImg});
 	background-size: cover;
