@@ -4,7 +4,7 @@ export const StyledNav = styled.div`
 	color: white;
 	position: fixed;
 	bottom: 25px;
-	right: 2.5%;
+	left: 2.5%;
 	z-index: 9;
 	.openedNav {
 		display: flex;
@@ -52,5 +52,9 @@ export const StyledNav = styled.div`
 
 	.active {
 		border: 0.5px solid orange;
+	}
+
+	@media screen and (min-width: 720px) {
+		top: 50%;
 	}
 `;
