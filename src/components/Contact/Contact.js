@@ -20,7 +20,7 @@ const Contact = ({ setHeaderMemo }) => {
 					<input type="email" name="_replyto" id="email" />
 				</div>
 				<div className="form-row">
-					<label for="message">Message:</label>
+					<label for="message">Memo:</label>
 					<textarea id="message" name="message"></textarea>
 				</div>
 				<div className="form-row-btn">

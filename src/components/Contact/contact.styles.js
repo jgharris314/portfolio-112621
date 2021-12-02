@@ -18,7 +18,7 @@ export const StyledContact = styled.div`
 		flex-direction: column;
 		font-size: 2rem;
 		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.18);
-		width: 250px;
+		width: 350px;
 		align-items: center;
 		border-radius: 5px;
 		&-row {
