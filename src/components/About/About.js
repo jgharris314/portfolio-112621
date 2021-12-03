@@ -1,8 +1,7 @@
 import React from "react";
 import { StyledAbout } from "./about.styles";
 
-const About = ({ setHeaderMemo }) => {
-	setHeaderMemo("About");
+const About = () => {
 	return (
 		<StyledAbout>
 			<div className="section">

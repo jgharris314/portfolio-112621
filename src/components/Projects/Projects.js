@@ -3,8 +3,7 @@ import { StyledProjects } from "./projects.styles";
 
 import ProjectDisplay from "./components/ProjectDisplay/ProjectDisplay";
 import projects from "./project-object.js";
-const Projects = ({ setHeaderMemo }) => {
-	setHeaderMemo("Projects");
+const Projects = () => {
 	const [activeObject, setActiveObject] = useState(projects[0]);
 	const [rerender, setRerender] = useState(false);
 	const [currentProject, setCurrentProject] = useState(0);

@@ -19,24 +19,20 @@ const Nav = () => {
 					</p>
 					{navList.map((e, index) => {
 						return (
-							// <Link
-							// className={
-							// 	activePage.pathname ===
-							// 	`/${e.toLowerCase()}`
-							// 		? "nav-option active"
-							// 		: "nav-option"
-							// }
-							// 	key={index}
-							// 	to={`/${e.toLowerCase()}`}
-							// 	onClick={() => setIsOpened(!isOpened)}
-							// >
+							//TODO update hash onScroll.
 							<a
 								href={`#${e.toLowerCase()}`}
-								className={"nav-option"}
+								className={
+									activePage.hash === `#${e.toLowerCase()}`
+										? "nav-option active"
+										: "nav-option"
+								}
+								key={index}
+								onClick={() => setIsOpened(!isOpened)}
 							>
 								{e}
+								{console.log(activePage.hash)}
 							</a>
-							// </Link>
 						);
 					})}
 				</div>

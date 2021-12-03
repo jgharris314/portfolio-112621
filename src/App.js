@@ -5,27 +5,25 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 function App() {
-	const [headerMemo, setHeaderMemo] = useState("Web Developer");
 	return (
 		<div className="App">
-			<Header headerMemo={headerMemo} />
+			<Header />
 			<Nav />
-
 			<div className="body-section">
 				<div id="home">
-					<Home setHeaderMemo={setHeaderMemo} />
+					<Home />
 				</div>
 				<div id="about">
-					<About setHeaderMemo={setHeaderMemo} />
+					<About />
 				</div>
 				<div id="projects">
-					<Projects setHeaderMemo={setHeaderMemo} />
+					<Projects />
 				</div>
 				<div id="contact">
-					<Contact setHeaderMemo={setHeaderMemo} />
+					<Contact />
 				</div>
 			</div>
 		</div>
