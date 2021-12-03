@@ -31,7 +31,6 @@ const Nav = () => {
 								onClick={() => setIsOpened(!isOpened)}
 							>
 								{e}
-								{console.log(activePage.hash)}
 							</a>
 						);
 					})}
