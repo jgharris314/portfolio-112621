@@ -4,7 +4,7 @@ export const StyledNav = styled.div`
 	color: white;
 	position: fixed;
 	bottom: 25px;
-	left: 2.5%;
+	left: 0.5%;
 	z-index: 9;
 	.openedNav {
 		display: flex;

@@ -5,7 +5,9 @@ export const StyledProjects = styled.div`
 	flex-direction: column;
 	align-items: center;
 	font-size: 2.6rem;
-
+	h2 {
+		color: limegreen;
+	}
 	button {
 		min-height: 50px;
 		border: none;

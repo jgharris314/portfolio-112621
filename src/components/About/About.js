@@ -1,10 +1,10 @@
 import React from "react";
 import { StyledAbout } from "./about.styles";
-import "../styles.css";
+
 const About = ({ setHeaderMemo }) => {
 	setHeaderMemo("About");
 	return (
-		<StyledAbout className="body-section">
+		<StyledAbout>
 			<div className="section">
 				I'm Jacob, a web developer located in Denver, Colorado. When I'm
 				not making web applications, I enjoy getting outdoors,
@@ -20,7 +20,7 @@ const About = ({ setHeaderMemo }) => {
 			<div className="section">
 				<h4>Hobbies</h4>
 				<li className="section-item">Kendama</li>
-				<li className="section-item">Playing video games</li>
+				<li className="section-item">Playing music</li>
 				<li className="section-item">Hiking</li>
 			</div>
 		</StyledAbout>

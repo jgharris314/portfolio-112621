@@ -7,7 +7,8 @@ export const StyledVideoPlayer = styled.div`
 	align-items: center;
 	aspect-ratio: 16/9;
 	width: 100%;
-	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.18);
+	height: 500px;
+	/* box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.18); */
 
 	h3 {
 		margin: 10px auto 10px auto;
@@ -18,5 +19,9 @@ export const StyledVideoPlayer = styled.div`
 		width: 95%;
 		border-radius: 5px;
 		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.18);
+	}
+
+	@media screen and (min-width: 720px) {
+		height: 720px;
 	}
 `;

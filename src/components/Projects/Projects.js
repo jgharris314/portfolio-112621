@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { StyledProjects } from "./projects.styles";
-import "../styles.css";
+
 import ProjectDisplay from "./components/ProjectDisplay/ProjectDisplay";
 import projects from "./project-object.js";
 const Projects = ({ setHeaderMemo }) => {
@@ -22,7 +22,8 @@ const Projects = ({ setHeaderMemo }) => {
 		setRerender(!rerender);
 	};
 	return (
-		<StyledProjects className="body-section">
+		<StyledProjects>
+			<h2>Projects</h2>
 			<ProjectDisplay
 				currentImage={currentImage}
 				setCurrentImage={setCurrentImage}

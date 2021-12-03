@@ -5,9 +5,6 @@ export const StyledImageDisplay = styled.div`
 	justify-content: center;
 
 	img {
-		/* aspect-ratio: 16/9; */
-		/* height: 40vh;
-		width: 90%; */
 		object-fit: contain;
 		object-position: center;
 		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.18);

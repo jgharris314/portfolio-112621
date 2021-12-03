@@ -1,10 +1,9 @@
 import React from "react";
 import { StyledContact } from "./contact.styles";
-import "../styles.css";
-const Contact = ({ setHeaderMemo }) => {
-	setHeaderMemo("Contact");
+
+const Contact = () => {
 	return (
-		<StyledContact className="body-section">
+		<StyledContact>
 			<h3>I am always open for new opportunities to build and learn!</h3>
 			<form
 				className="form"

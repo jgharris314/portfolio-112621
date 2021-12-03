@@ -19,19 +19,24 @@ const Nav = () => {
 					</p>
 					{navList.map((e, index) => {
 						return (
-							<Link
-								className={
-									activePage.pathname ===
-									`/${e.toLowerCase()}`
-										? "nav-option active"
-										: "nav-option"
-								}
-								key={index}
-								to={`/${e.toLowerCase()}`}
-								onClick={() => setIsOpened(!isOpened)}
+							// <Link
+							// className={
+							// 	activePage.pathname ===
+							// 	`/${e.toLowerCase()}`
+							// 		? "nav-option active"
+							// 		: "nav-option"
+							// }
+							// 	key={index}
+							// 	to={`/${e.toLowerCase()}`}
+							// 	onClick={() => setIsOpened(!isOpened)}
+							// >
+							<a
+								href={`#${e.toLowerCase()}`}
+								className={"nav-option"}
 							>
 								{e}
-							</Link>
+							</a>
+							// </Link>
 						);
 					})}
 				</div>

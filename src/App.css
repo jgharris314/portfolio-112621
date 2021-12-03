@@ -5,7 +5,8 @@
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
-
+	align-items: center;
+	flex-direction: column;
 	overflow-y: scroll;
 	-ms-overflow-style: none;
 	scrollbar-width: none;

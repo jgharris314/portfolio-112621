@@ -1,5 +1,4 @@
 import React from "react";
-import ImageDisplay from "../../../Projects/components/ProjectDisplay/components/ImageDisplay/ImageDisplay";
 import { StyledIconDisplay } from "./icon-display.styles";
 import github from "./img/github.png";
 import linkedIn from "./img/linkedin.png";
